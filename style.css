@@ -1,0 +1,35 @@
+body {
+  background: #161616;
+  color: #bdbdbd;
+  font-weight: 300;
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-family: Helvetica neue, roboto;
+}
+
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+  border: 0;
+  outline: 0;
+  color: #bdbdbd;
+}
+
+input {
+  background: rgba(0,0,0,.25);
+  color:#bdbdbd;
+  border: 1px solid rgb(60,60,60);
+}
+
+textarea {
+  border: 1px solid rgb(60,60,60);
+  background: rgba(0,0,0,.25);
+}
